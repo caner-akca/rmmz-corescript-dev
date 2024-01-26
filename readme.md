@@ -1,12 +1,9 @@
 # RPG Maker MZ - Corescript Helpers
 
-This is a repository to compile the different files of the RPG Maker MZ Engine and help to understand and document the API for plugin developers.
+This is a repository to compile useful information about RPG Maker MZ Engine from different authors and help to understand and document the API for plugin developers.
 
-Every contribution and improvement is welcomed in order to create a stronger documentation and engine, and allow more people to create freat RPG Maker games.
+Every contribution and improvement is welcomed in order to create a stronger documentation and engine, and allow more people to create great RPG Maker games.
 
-Other helpful tools:
-
-- RPG Maker MZ/MV Intellisense for Visual Studio Code - https://github.com/LunaTechsDev/LunaLite/tree/master
 
 ## **docs** - Documentation
 
@@ -30,4 +27,8 @@ Based on the work done in this repository: https://github.com/rpgtkoolmv/corescr
 
 ## corescript_xxx - Corescript versions folders
 
-The original corescript version to keep as archive and as backup in case of emergency.
+The original corescript current version.
+
+## Other tools - references to other RPG Maker tools
+
+- RPG Maker MZ/MV Intellisense for Visual Studio Code - https://github.com/LunaTechsDev/LunaLite/tree/master
