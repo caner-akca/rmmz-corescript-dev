@@ -78,6 +78,10 @@ Scene_Boot.prototype.start = function() {
     } else if (DataManager.isEventTest()) {
         DataManager.setupEventTest();
         SceneManager.goto(Scene_Map);
+    } else if (DataManager.isTitleSkip()) {
+        this.checkPlayerLocation();
+        DataManager.setupNewGame();
+        SceneManager.goto(Scene_Map);
     } else {
         this.startNormalGame();
     }
@@ -88,8 +92,8 @@ Scene_Boot.prototype.start = function() {
 Scene_Boot.prototype.startNormalGame = function() {
     this.checkPlayerLocation();
     DataManager.setupNewGame();
-    SceneManager.goto(Scene_Title);
     Window_TitleCommand.initCommandPosition();
+    SceneManager.goto(Scene_Splash);
 };
 
 Scene_Boot.prototype.resizeScreen = function() {
